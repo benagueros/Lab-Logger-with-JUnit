@@ -45,6 +45,9 @@ public class Timer {
 				logger.info("Calling took: "+ (System.currentTimeMillis() - timeNow));
 				logger.info("* should take: "+ timeToWait);
 			}
+			else {
+				logger.warning("Cannot be less than zero");
+			}
 		}
 		return timeNow;
 	}
