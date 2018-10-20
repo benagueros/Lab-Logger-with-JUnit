@@ -5,6 +5,3 @@ git
 GUI
 prototype 2
 all relevant diagrams
-	Class Diagram
-	Sequence Diagram 
-	Model View Controller
